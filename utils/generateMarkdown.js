@@ -17,7 +17,7 @@ const renderLicenseLink = (license) => {
 
 // function to generate markdown for README
 function generateMarkdown(data) {
-  // console.log(data);
+  console.log(data);
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
 
@@ -33,7 +33,7 @@ function generateMarkdown(data) {
   * [License](#license)
   * [Contributing](#Contributing)
   * [Tests](#Tests)
-  * [Questions](#Contact-Information)
+  * [Contact-Information](#Contact-Information)
   
   ### Installation
   Run the following command to install required dependencies
@@ -43,7 +43,7 @@ function generateMarkdown(data) {
   \`\`\`
 
   ### Usage
-  
+
   Use Node version 16 and above
   ${data.usage}
 
