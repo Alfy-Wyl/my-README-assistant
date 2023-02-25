@@ -41,7 +41,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "Select a license for your project?",
-        options: [
+        choices: [
             "Apache license 2.0",
             "Boost Software License 1.0",
             "Creative Commons Attribution 4.0",
@@ -100,7 +100,10 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
+    inquirer.prompt(questions).then((response) => {
+        console.log(`Loading File...`);
+        writeToFile("README.md", generateMarkdown({...response}))
+    })
 }
 
 // function call to initialize program
