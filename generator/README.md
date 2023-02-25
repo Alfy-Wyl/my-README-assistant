@@ -24,7 +24,7 @@
 
   ### Usage
 
-  Use Node version 16 and above
+  Use Node version 16 and above. 
   Program works when user follow all prompts displayed.
 
   ### License
