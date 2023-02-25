@@ -36,13 +36,15 @@ function generateMarkdown(data) {
   * [Questions](#Contact-Information)
   
   ### Installation
-  Run the follwing command to install required dependencies
+  Run the following command to install required dependencies
 
   \`\`\`
   ${data.installation}
   \`\`\`
-  ### Usage
 
+  ### Usage
+  
+  Use Node version 16 and above
   ${data.usage}
 
   ### License
