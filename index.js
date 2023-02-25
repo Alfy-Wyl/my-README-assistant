@@ -24,14 +24,16 @@ const questions = [
     {
         type: "input",
         name: "installation",
-        message: "How is the program installed? Please provide imformation on all required softwares and commands"   
+        message: "How is the program installed? Please provide information on all required softwares and commands",
+        default: "npm i"  
     },
 
     // Usage section
     {
         type: "input",
         name: "usage",
-        message: "How is the program used?"   
+        message: "How is the program used?",
+        default: "npm i"  
     },
 
     // License section
@@ -55,7 +57,8 @@ const questions = [
             "SIL Open Font License 1.1",
             "University of Illinois/NCSA Open Source License",
             "The Unlicense",
-            "zLib License",   
+            "zLib License",
+            "None"   
         ],  
     },
 
@@ -70,7 +73,8 @@ const questions = [
     {
         type: "input",
         name: "tests",
-        message: "Provide testing instructions for your project."   
+        message: "Provide testing instructions for your project.",
+        default: "npm tests" 
     },
 
     // Questions section
