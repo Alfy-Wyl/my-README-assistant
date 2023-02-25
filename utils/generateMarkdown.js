@@ -22,11 +22,11 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
 
 
-  ### Description 
+  ## Description 
 
   ${data.description}
 
-  ### Table of Contents
+  ## Table of Contents
 
   * [Installation](#Installation)
   * [Usage](#Usage)
@@ -35,14 +35,14 @@ function generateMarkdown(data) {
   * [Tests](#Tests)
   * [Contact-Information](#Contact-Information)
   
-  ### Installation
+  ## Installation
   Run the following command to install required dependencies
 
   \`\`\`
   ${data.installation}
   \`\`\`
 
-  ### Usage
+  ## Usage
 
   Use Node version 16 and above
   ${data.usage}
@@ -51,18 +51,18 @@ function generateMarkdown(data) {
 
   This project is licensed under the ${data.license} license.
 
-  ### Contributing
+  ## Contributing
 
   ${data.contributing}
 
-  ### Tests
+  ## Tests
   Run the following command to run tests:
   
   \`\`\`
   ${data.tests}
   \`\`\`
 
-  ### Contact Information
+  ## Contact Information
 
   * Github: [${data.github}](https://github.com/${data.github}).
   * Email: ${data.email}
