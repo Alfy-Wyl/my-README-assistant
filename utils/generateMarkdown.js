@@ -9,7 +9,7 @@ const renderLicenseBadge = (license) => {
 // function to render license link
 const renderLicenseLink = (license) => {
   if(license !== "None") {
-    return `\n* [License](#license)\n`
+    return `* [License](#license)`
   }
   return ''
 }
@@ -22,11 +22,48 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
 
 
+  ### Description 
 
+  ${data.description}
 
+  ### Table of Contents
 
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [License](#license)
+  * [Contributing](#Contributing)
+  * [Tests](#Tests)
+  * [Questions](#Contact-Information)
+  
+  ### Installation
+  Run the follwing command to install required dependencies
 
+  \`\`\`
+  ${data.installation}
+  \`\`\`
+  ### Usage
 
+  ${data.usage}
+
+  ### License
+
+  ${data.license}
+
+  ### Contributing
+
+  ${data.contributing}
+
+  ### Tests
+  Run the following command to run tests:
+  
+  \`\`\`
+  ${data.tests}
+  \`\`\`
+
+  ### Contact Information
+
+  * Github: ${data.github}
+  * Email: ${data.email}
 
 `;
 }
