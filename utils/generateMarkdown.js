@@ -47,7 +47,7 @@ function generateMarkdown(data) {
   Use Node version 16 and above
   ${data.usage}
 
-  ### License
+  ## License
 
   This project is licensed under the ${data.license} license.
 
