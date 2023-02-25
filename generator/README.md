@@ -2,47 +2,47 @@
   ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 
-  ### Description 
+  ## Description 
 
-  This project uses the Command-Line to generate a professional README.md file based on answers received from user prompts.
+  A command-line application that dynamically generates a professional README.md file from a user's input.
 
-  ### Table of Contents
+  ## Table of Contents
 
   * [Installation](#Installation)
   * [Usage](#Usage)
   * [License](#license)
   * [Contributing](#Contributing)
   * [Tests](#Tests)
-  * [Questions](#Contact-Information)
+  * [Contact-Information](#Contact-Information)
   
-  ### Installation
+  ## Installation
   Run the following command to install required dependencies
 
   ```
   npm i
   ```
 
-  ### Usage
+  ## Usage
 
-  Use Node version 16 and above. 
-  Program works when user follow all prompts displayed.
+  Use Node version 16 and above
+  npm i
 
-  ### License
+  ## License
 
   This project is licensed under the MIT license.
 
-  ### Contributing
+  ## Contributing
 
   Fork the repository to contribute
 
-  ### Tests
+  ## Tests
   Run the following command to run tests:
   
   ```
   npm tests
   ```
 
-  ### Contact Information
+  ## Contact Information
 
   * Github: [Alfy-Wyl](https://github.com/Alfy-Wyl).
   * Email: alfred.wnunoo@gmail.com
