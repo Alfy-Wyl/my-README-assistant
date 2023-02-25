@@ -1,7 +1,15 @@
 // function to render license badge
-function renderLicenseBadge (license) {
+const renderLicenseBadge = (license) => {
   if(license !== "None") {
     return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`
+  }
+  return ''
+}
+
+// function to render license link
+const renderLicenseLink = (license) => {
+  if(license !== "None") {
+    return `\n* [License](#license)\n`
   }
   return ''
 }
@@ -12,7 +20,17 @@ function generateMarkdown(data) {
   // console.log(data);
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
+
+
+
+
+
+
+
+
 `;
 }
+
+
 
 module.exports = generateMarkdown;
