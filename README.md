@@ -46,8 +46,10 @@ This project is licensed under the MIT license.
 ## Links
 
 Link to video walkthrough
+
+https://loom.com/share/1d347513a87944db8273b27997418424
  
 
-
 ## Screenshots
+<img width="1355" alt="Screenshot 2023-02-25 at 19 20 30" src="https://user-images.githubusercontent.com/118228946/221375705-b4e7cf62-fe4a-4b21-8722-3e80c7ce2ada.png">
 
