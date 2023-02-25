@@ -47,7 +47,7 @@ function generateMarkdown(data) {
 
   ### License
 
-  ${data.license}
+  This project is licensed under the ${data.license} license.
 
   ### Contributing
 
@@ -62,7 +62,7 @@ function generateMarkdown(data) {
 
   ### Contact Information
 
-  * Github: ${data.github}
+  * Github: [${data.github}](https://github.com/${data.github}).
   * Email: ${data.email}
 
 `;
